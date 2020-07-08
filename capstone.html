@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Welcome</title>
+      <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/capstonec.css">
+  <script src="https://kit.fontawesome.com/c6cae0d3d4.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="mynav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info bg-custom-1">
+    <a class="navbar-brand" href="#">Kopal Srivastava</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample05">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">My skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact me</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  </div>
+
+  <main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Hi, I'm Kopal Srivastava</h1>
+              <p>I'm a second year undergrad student studying Electronics & Communication.</p>
+              <img src="C:\Users\kopal\OneDrive\Desktop\html\images\carousel-pic.jpg" alt="icon">
+
+              <p><a class="btn btn-lg btn-primary" href="#skills" role="button" onmouseover="this.innerHTML='Ready to go?';" onmouseout="this.innerHTML='Check out my skills' ">Check out my skills</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--{% include icons/placeholder.svg width="100%" height="100%" background="#777" color="#777" text=" " title=" " %}-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>My journey with web dev</h1>
+              <p>Welcome to my page. I'm a newly taught front end developer and I'm trying to dive into the field of web dev.</p>
+              <img src="C:\Users\kopal\OneDrive\Desktop\html\images\carousel-pic2.jpg" alt="icon">
+              <p><a class="btn btn-lg btn-primary" href="#contact-me" role="button" onmouseover="this.innerHTML='Ready to go?';" onmouseout="this.innerHTML='Get in touch' ">Get in touch</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container marketing" id="skills">
+      <h1>My skills </h1>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="C:\Users\kopal\OneDrive\Desktop\html\images\css-logo.svg" alt="css logo" >
+          <h2>CSS 3</h2>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+        <img src="C:\Users\kopal\OneDrive\Desktop\html\images\html-logo.png" alt="html logo">
+          <h2>HTML 5</h2>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+          <img src="C:\Users\kopal\OneDrive\Desktop\html\images\js-logo.png" alt="js logo">
+          <h2>Java Script</h2>
+        </div>
+          <div class="col-lg-3">
+            <img src="C:\Users\kopal\OneDrive\Desktop\html\images\bootstrap-logo.png" alt="bootstrap logo" >
+            <h2>Bootstrap</h2>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      </div>
+<section id="contact-me">
+      <div class="contact boxed">
+        <h1> Contact me </h1>
+        <p><i class="far fa-envelope fa-2x"></i>  Find me at <br> <a href="#">kopal2000@gmail.com </a><br>
+        <a href="https://www.facebook.com/kopal.srivastava.925/" target="_blank"><i class="fab fa-facebook fa-3x"></i> </a>
+        <a href="https://www.linkedin.com/in/kopal-srivastava-248a76170/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a></p>
+
+        </div>
+        </section>
+        <footer class="footer mt-auto py-3">
+          <div class="container">
+            <span class="text-muted">&copy; Kopal Srivastava</span>
+          </div>
+        </footer>
+  </body>
+  </html>
+
